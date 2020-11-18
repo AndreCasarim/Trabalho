@@ -1,7 +1,7 @@
 package Programando;
 import java.util.*;
 
-public class Eventosextends Reunioes {
+public class Eventos extends Compromisso {
 
 	private String tipoEvento;
 	private String nome;
@@ -36,4 +36,4 @@ public class Eventosextends Reunioes {
 	public void setLocal(String local) {
 		this.local = local;
 	}
-
+}

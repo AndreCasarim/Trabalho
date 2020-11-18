@@ -1,7 +1,7 @@
 package Programando;
 import java.util.*;
 
-public class Aulas extends Reunioes {
+public class Aulas extends Compromisso {
 
 	private String nomeDisciplina;
 	private String tipo; // Graduacao, Mestrado e Especializacao

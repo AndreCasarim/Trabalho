@@ -1,7 +1,7 @@
 package Programando;
 java.util.*;
 
-public class Orientacao extends Reunioes {
+public class Orientacao extends Compromisso {
     private String nomeOrientados;
 	private String tipo; // Graduacao, Mestrado e Especializacao
 	
@@ -25,6 +25,4 @@ public class Orientacao extends Reunioes {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-
-}
 }

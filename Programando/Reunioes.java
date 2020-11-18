@@ -1,10 +1,11 @@
-package Programando;
+gitpackage Programando;
 java.util.*;
 
 abstract public class Reunioes {
     private String data;
 	private String hora;
 	private int duracao;
+	private int grau;
 	
 	
 	public String getData() {
@@ -24,5 +25,11 @@ abstract public class Reunioes {
 	}
 	public void setDuracao(int duracao) {
 		this.duracao = duracao;
+	}
+	public int getGrau(){
+		return grau;
+	}
+	public void setGrau(int grau){
+		this.grau = grau;
 	}
 }
